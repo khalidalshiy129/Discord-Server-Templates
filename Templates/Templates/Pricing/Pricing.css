@@ -1,0 +1,64 @@
+/* Add your desired styling for the Pricing page */
+
+body {
+  background-color: #000; /* Dark background */
+  color: #fff; /* Light text color */
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 40px;
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+p {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.pricing-table {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.pricing-card {
+  flex-basis: calc(33.33% - 20px);
+  margin-bottom: 40px;
+  padding: 20px;
+  background-color: #333; /* Dark card background */
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  transition: transform 0.3s ease-in-out;
+}
+
+.pricing-card:hover {
+  transform: translateY(-5px);
+}
+
+.pricing-card h3 {
+  color: #fff; /* Light title color */
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.pricing-card p {
+  color: #aaa; /* Light description and cost color */
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
+footer {
+  text-align: center;
+  background-color: #222; /* Dark footer background */
+  padding: 20px;
+  color: #fff; /* Light footer text color */
+}
